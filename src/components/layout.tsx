@@ -77,7 +77,7 @@ export function Layout({ children }: LayoutProps) {
               </Button>
             )}
           </div>
-          <div className="flex flex-1 items-center gap-4 md:gap-6">
+          {/* <div className="flex flex-1 items-center gap-4 md:gap-6">
             <form className="flex-1 md:flex-initial">
               <div className="relative">
                 <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-500" />
@@ -112,7 +112,7 @@ export function Layout({ children }: LayoutProps) {
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-          </div>
+          </div> */}
         </header>
 
         {/* Main content area */}
